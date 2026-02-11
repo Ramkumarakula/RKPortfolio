@@ -248,7 +248,7 @@ const Portfolio = () => {
                 <h3 className="font-bold uppercase tracking-widest text-xs italic">Curriculum Vitae</h3>
                 <button onClick={() => setShowResume(false)} className="bg-white/10 px-4 py-2 rounded-full hover:bg-white/20 flex items-center gap-2 text-xs font-bold uppercase transition-all">Close <X size={18}/></button>
               </div>
-              <iframe src="/resume.pdf" title="Resume" className="w-full h-full bg-white rounded-2xl border-none shadow-2xl" />
+              <iframe src="./resume.pdf" title="Resume" className="w-full h-full bg-white rounded-2xl border-none shadow-2xl" />
             </div>
           </motion.div>
         )}
