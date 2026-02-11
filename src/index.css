@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+html { 
+  scroll-behavior: smooth; 
+}
+
+.text-outline { 
+  -webkit-text-stroke: 1px rgb(6, 182, 212); 
+  color: transparent; 
+}
